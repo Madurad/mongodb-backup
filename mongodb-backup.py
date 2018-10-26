@@ -1,5 +1,5 @@
 import subprocess
-import shellx
+import shlex
 
 #Add DB and the collection you want to backup
 command = shlex.split("mongodump  --db <dbName> --collection <collectionName> /path/to/backup/location/")
